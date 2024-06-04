@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "ecg-ruido"
+version = "0.1.0"
+description = ""
+authors = ["pab-h <dev.pab.2020@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+ipykernel = "^6.29.4"
+numpy = "^1.26.4"
+matplotlib = "^3.8.4"
+pandas = "^2.2.2"
+nbconvert = "^7.16.3"
+scipy = "^1.13.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
